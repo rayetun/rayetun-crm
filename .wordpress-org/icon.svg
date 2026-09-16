@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="RayEtun CRM — a deal advancing through the sales pipeline to won">
+  <defs>
+    <linearGradient id="tile" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#8189FF"/><stop offset="0.55" stop-color="#5B54EA"/><stop offset="1" stop-color="#4632C9"/>
+    </linearGradient>
+    <radialGradient id="gloss" cx="0.3" cy="0.12" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/><stop offset="0.6" stop-color="#ffffff" stop-opacity="0.04"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="1.05" r="0.8">
+      <stop offset="0" stop-color="#2A1D7A" stop-opacity="0.45"/><stop offset="1" stop-color="#2A1D7A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="won" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4BE6AC"/><stop offset="1" stop-color="#22C58A"/></linearGradient>
+    <filter id="cardsh" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#160F45" flood-opacity="0.32"/></filter>
+    <style>
+      .hero { animation: heroMove 5s ease-in-out infinite; }
+      .won  { animation: wonShow 5s ease-in-out infinite; }
+      @keyframes heroMove {
+        0%   { transform: translateX(0px);   opacity: 0; }
+        6%   { opacity: 1; }
+        22%  { transform: translateX(0px); }
+        38%  { transform: translateX(56px); }
+        54%  { transform: translateX(56px); }
+        70%  { transform: translateX(112px); opacity: 1; }
+        77%  { opacity: 0; }
+        90%  { transform: translateX(112px); opacity: 0; }
+        93%  { transform: translateX(0px);   opacity: 0; }
+        100% { transform: translateX(0px);   opacity: 0; }
+      }
+      @keyframes wonShow {
+        0%, 70% { opacity: 0; }
+        77%     { opacity: 1; }
+        90%     { opacity: 1; }
+        96%     { opacity: 0; }
+        100%    { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .hero { animation: none; opacity: 1; }
+        .won  { animation: none; opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- App tile -->
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#tile)"/>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#vig)"/>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#gloss)"/>
+  <rect x="9" y="9" width="238" height="238" rx="57" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+
+  <!-- Pipeline lanes -->
+  <rect x="50"  y="62" width="46" height="136" rx="14" fill="#ffffff" fill-opacity="0.13"/>
+  <rect x="106" y="62" width="46" height="136" rx="14" fill="#ffffff" fill-opacity="0.13"/>
+  <rect x="162" y="62" width="46" height="136" rx="14" fill="#ffffff" fill-opacity="0.13"/>
+  <!-- Stage caps -->
+  <rect x="59"  y="74" width="28" height="6" rx="3" fill="#93C5FD"/>
+  <rect x="115" y="74" width="28" height="6" rx="3" fill="#C4B5FD"/>
+  <rect x="171" y="74" width="28" height="6" rx="3" fill="#6EE7B7"/>
+  <!-- Resident cards (populate the board) -->
+  <g fill="#ffffff" fill-opacity="0.34">
+    <rect x="59"  y="150" width="28" height="20" rx="5"/>
+    <rect x="115" y="150" width="28" height="20" rx="5"/>
+    <rect x="171" y="150" width="28" height="20" rx="5"/>
+  </g>
+
+  <!-- Advancing deal card -->
+  <g class="hero" filter="url(#cardsh)">
+    <rect x="59" y="110" width="28" height="24" rx="5" fill="#ffffff"/>
+    <rect x="64" y="117" width="18" height="4" rx="2" fill="#C7CAEA"/>
+    <rect x="64" y="125" width="11" height="4" rx="2" fill="#DDDFF1"/>
+  </g>
+
+  <!-- Won card (fades in at the last stage) -->
+  <g class="won" opacity="0" filter="url(#cardsh)">
+    <rect x="171" y="110" width="28" height="24" rx="5" fill="url(#won)"/>
+    <path d="M178 122.5 l4.5 4.5 l8 -10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

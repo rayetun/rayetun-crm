@@ -1,0 +1,16 @@
+{
+  "name": "rayetun-crm",
+  "version": "1.0.0",
+  "private": true,
+  "license": "GPL-2.0-or-later",
+  "description": "Admin SPA build for RayEtun CRM.",
+  "scripts": {
+    "build": "wp-scripts build",
+    "postbuild": "node -e \"require('fs').writeFileSync('build/index.php','<?php // Silence is golden.\\n')\"",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js src"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

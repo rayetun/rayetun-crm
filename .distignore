@@ -1,0 +1,13 @@
+# Files and folders excluded from the distributed plugin / SVN trunk.
+/.git
+/.github
+/.wordpress-org
+/node_modules
+/.linktest
+package.json
+package-lock.json
+phpcs.xml.dist
+.distignore
+.editorconfig
+.gitignore
+webpack.config.js

@@ -1,0 +1,31 @@
+/**
+ * RayEtun CRM — lead-form block editor preview.
+ */
+.rtcrm-block-preview {
+	border: 1px dashed #c7cbe0;
+	border-radius: 10px;
+	padding: 20px 22px;
+	background: #fafbff;
+}
+
+.rtcrm-block-preview__badge {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	color: #4338ca;
+	background: #eef2ff;
+	border-radius: 999px;
+	padding: 2px 9px;
+}
+
+.rtcrm-block-preview__title {
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.rtcrm-block-preview__hint {
+	margin: 4px 0 0;
+	color: #6b7280;
+	font-size: 13px;
+}

@@ -1,0 +1,94 @@
+/**
+ * RayEtun CRM — native lead form (front-end).
+ * Scoped under .rtcrm-form; neutral styling that adapts to most themes.
+ */
+.rtcrm-form {
+	max-width: 520px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.rtcrm-form__title {
+	margin: 0 0 4px;
+	font-size: 1.25em;
+}
+
+.rtcrm-form__row {
+	display: flex;
+	gap: 12px;
+}
+
+.rtcrm-form__row .rtcrm-form__field {
+	flex: 1 1 0;
+}
+
+.rtcrm-form__field {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.rtcrm-form__field > span {
+	font-size: 0.85em;
+	font-weight: 600;
+}
+
+.rtcrm-form__field input,
+.rtcrm-form__field textarea {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #d5d7de;
+	border-radius: 8px;
+	font: inherit;
+	box-sizing: border-box;
+}
+
+.rtcrm-form__field input:focus,
+.rtcrm-form__field textarea:focus {
+	outline: 2px solid rgba( 99, 102, 241, 0.35 );
+	border-color: #6366f1;
+}
+
+.rtcrm-form__submit {
+	align-self: flex-start;
+	padding: 11px 22px;
+	border: 0;
+	border-radius: 8px;
+	background: #6366f1;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.95em;
+	cursor: pointer;
+}
+
+.rtcrm-form__submit:hover {
+	background: #4f46e5;
+}
+
+/* Honeypot — hidden from real users. */
+.rtcrm-form__hp {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.rtcrm-form-notice {
+	padding: 12px 16px;
+	border-radius: 8px;
+	font-size: 0.95em;
+}
+
+.rtcrm-form-notice--ok {
+	background: #ecfdf5;
+	border: 1px solid #a7f3d0;
+	color: #047857;
+}
+
+.rtcrm-form-notice--err {
+	background: #fef2f2;
+	border: 1px solid #fecaca;
+	color: #b42318;
+}

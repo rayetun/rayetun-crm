@@ -1,0 +1,1604 @@
+# Copyright (C) 2026 Md Rayhan Uddin
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: RayEtun CRM – Sales Pipeline & Lead Management 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rayetun-crm\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-13T19:49:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: rayetun-crm\n"
+
+#. Plugin Name of the plugin
+#: rayetun-crm.php
+msgid "RayEtun CRM – Sales Pipeline & Lead Management"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: rayetun-crm.php
+msgid "https://wordpress.org/plugins/rayetun-crm"
+msgstr ""
+
+#. Description of the plugin
+#: rayetun-crm.php
+msgid "A self-hosted CRM for WordPress: visual sales pipeline, lead capture from any form, contacts, tasks and reports. Your leads, your data, no monthly fees."
+msgstr ""
+
+#. Author of the plugin
+#: rayetun-crm.php
+msgid "Md Rayhan Uddin"
+msgstr ""
+
+#. Author URI of the plugin
+#: rayetun-crm.php
+msgid "https://rayetun.com/"
+msgstr ""
+
+#: admin/views/app.php:11
+msgid "RayEtun CRM requires JavaScript to be enabled."
+msgstr ""
+
+#: includes/class-rayetun-crm-activities.php:145
+msgid "A note cannot be empty."
+msgstr ""
+
+#: includes/class-rayetun-crm-admin.php:74
+#: includes/class-rayetun-crm-admin.php:75
+#: src/brand-mark.js:10
+msgid "RayEtun CRM"
+msgstr ""
+
+#: includes/class-rayetun-crm-capabilities.php:110
+msgid "Administrator"
+msgstr ""
+
+#: includes/class-rayetun-crm-capabilities.php:114
+msgid "Agent"
+msgstr ""
+
+#: includes/class-rayetun-crm-capabilities.php:117
+msgid "Viewer"
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:179
+msgid "A contact email is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:183
+#: includes/class-rayetun-crm-contacts.php:243
+msgid "A contact with this email already exists."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:195
+msgid "Could not create the contact."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:237
+#: includes/class-rayetun-crm-contacts.php:296
+#: includes/rest/class-rayetun-crm-rest-contacts.php:157
+#: includes/rest/class-rayetun-crm-rest-contacts.php:254
+#: includes/rest/class-rayetun-crm-rest-contacts.php:278
+#: includes/rest/class-rayetun-crm-rest-contacts.php:388
+msgid "Contact not found."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:490
+msgid "No contacts were selected."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:507
+msgid "Invalid status."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:519
+msgid "No tags were provided."
+msgstr ""
+
+#: includes/class-rayetun-crm-contacts.php:530
+msgid "Unknown bulk action."
+msgstr ""
+
+#: includes/class-rayetun-crm-custom-fields.php:86
+msgid "A field label is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-custom-fields.php:130
+#: includes/class-rayetun-crm-custom-fields.php:176
+msgid "Field not found."
+msgstr ""
+
+#: includes/class-rayetun-crm-deals.php:35
+msgid "Pipeline not found."
+msgstr ""
+
+#: includes/class-rayetun-crm-deals.php:175
+msgid "A deal title is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-deals.php:185
+msgid "The pipeline has no stages."
+msgstr ""
+
+#: includes/class-rayetun-crm-deals.php:222
+#: includes/class-rayetun-crm-deals.php:273
+#: includes/class-rayetun-crm-deals.php:316
+#: includes/rest/class-rayetun-crm-rest-pipeline.php:252
+msgid "Deal not found."
+msgstr ""
+
+#: includes/class-rayetun-crm-deals.php:278
+msgid "That stage is not in this pipeline."
+msgstr ""
+
+#: includes/class-rayetun-crm-email.php:151
+msgid "A template name is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-email.php:205
+msgid "This contact has no valid email."
+msgstr ""
+
+#: includes/class-rayetun-crm-email.php:209
+msgid "This contact has unsubscribed from email. Set them back to subscribed to send."
+msgstr ""
+
+#: includes/class-rayetun-crm-email.php:216
+msgid "The email body is empty."
+msgstr ""
+
+#: includes/class-rayetun-crm-email.php:222
+msgid "The email could not be sent. Check your site's email configuration."
+msgstr ""
+
+#: includes/class-rayetun-crm-extension.php:32
+msgid "RayEtun CRM add-on"
+msgstr ""
+
+#. translators: %s: add-on name.
+#: includes/class-rayetun-crm-extension.php:47
+#, php-format
+msgid "%s was built for a different version of RayEtun CRM. Please update both plugins to matching versions."
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:80
+#: includes/class-rayetun-crm-forms.php:140
+msgid "Get in touch"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:81
+#: includes/class-rayetun-crm-forms.php:141
+#: src/views/contact-panel.js:591
+msgid "Send"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:143
+msgid "Thanks! We will be in touch shortly."
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:177
+msgid "Please check your details and try again."
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:182
+#: src/views/contact-panel.js:447
+#: src/views/import-dialog.js:11
+msgid "First name"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:187
+#: src/views/contact-panel.js:451
+#: src/views/import-dialog.js:12
+msgid "Last name"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:194
+#: includes/class-rayetun-crm-modules.php:92
+#: src/views/contact-panel.js:457
+msgid "Email"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:200
+#: src/views/contact-panel.js:463
+#: src/views/import-dialog.js:13
+msgid "Phone"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:207
+msgid "Message"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:216
+msgid "Leave this field empty"
+msgstr ""
+
+#: includes/class-rayetun-crm-forms.php:294
+msgid "Native form"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:63
+msgid "Sales Pipeline"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:74
+#: includes/class-rayetun-crm-pipelines.php:158
+msgid "New Lead"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:75
+#: includes/class-rayetun-crm-pipelines.php:159
+msgid "Qualified"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:76
+#: includes/class-rayetun-crm-pipelines.php:160
+msgid "Proposal Sent"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:77
+#: includes/class-rayetun-crm-pipelines.php:161
+msgid "Negotiation"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:78
+#: includes/class-rayetun-crm-pipelines.php:162
+msgid "Won"
+msgstr ""
+
+#: includes/class-rayetun-crm-install.php:79
+#: includes/class-rayetun-crm-pipelines.php:163
+msgid "Lost"
+msgstr ""
+
+#: includes/class-rayetun-crm-integrations.php:70
+#: includes/class-rayetun-crm-integrations.php:71
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/class-rayetun-crm-integrations.php:96
+#: includes/class-rayetun-crm-integrations.php:97
+msgid "WPForms"
+msgstr ""
+
+#: includes/class-rayetun-crm-integrations.php:127
+#: includes/class-rayetun-crm-integrations.php:128
+msgid "Fluent Forms"
+msgstr ""
+
+#: includes/class-rayetun-crm-lead-capture.php:59
+msgid "A valid email is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-lead-capture.php:66
+msgid "Website form"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:53
+#: src/app.js:22
+#: src/views/reports.js:34
+#: src/views/reports.js:37
+msgid "Contacts"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:54
+msgid "The contact database with custom fields, tags, notes and a full activity timeline."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:59
+#: src/app.js:21
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:60
+msgid "At-a-glance KPIs, hot leads, pipeline value and a recent-activity feed."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:65
+#: src/app.js:25
+msgid "Reports"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:66
+msgid "Contacts over time, lead sources and pipeline conversion — each CSV-exportable."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:71
+msgid "Lead scoring"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:72
+msgid "Automatic heat scoring from form submissions, with a daily score-decay routine."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:77
+msgid "Sales pipeline"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:78
+msgid "Kanban deal board, stages and pipeline analytics."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:82
+msgid "Lead capture forms"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:83
+msgid "Native lead form (shortcode + block) plus Contact Form 7, WPForms and Fluent Forms auto-capture."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:87
+msgid "Tasks & reminders"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:88
+msgid "Follow-up tasks with due dates, priorities and due-today email reminders."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:93
+msgid "Log messages to the timeline and send one-to-one email with reusable templates."
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:97
+msgid "WooCommerce sync"
+msgstr ""
+
+#: includes/class-rayetun-crm-modules.php:98
+msgid "Turn paid orders into contacts with purchase history and optional auto-deals."
+msgstr ""
+
+#: includes/class-rayetun-crm-pipelines.php:133
+msgid "A pipeline name is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-reports.php:164
+msgid "Unknown"
+msgstr ""
+
+#. translators: 1: required PHP version, 2: required WordPress version.
+#: includes/class-rayetun-crm-requirements.php:62
+#, php-format
+msgid "RayEtun CRM requires PHP %1$s+ and WordPress %2$s+. The plugin is inactive until the environment is updated."
+msgstr ""
+
+#: includes/class-rayetun-crm-rest.php:228
+msgid "No module changes were provided."
+msgstr ""
+
+#: includes/class-rayetun-crm-tasks.php:201
+msgid "A task title is required."
+msgstr ""
+
+#: includes/class-rayetun-crm-tasks.php:228
+#: includes/class-rayetun-crm-tasks.php:259
+msgid "Task not found."
+msgstr ""
+
+#: includes/class-rayetun-crm-tasks.php:309
+msgid "You have tasks due today:"
+msgstr ""
+
+#: includes/class-rayetun-crm-tasks.php:316
+msgid "RayEtun CRM — tasks due today"
+msgstr ""
+
+#: includes/class-rayetun-crm-woocommerce.php:79
+msgid "WooCommerce"
+msgstr ""
+
+#. translators: %s: order number.
+#: includes/class-rayetun-crm-woocommerce.php:158
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: includes/rest/class-rayetun-crm-rest-contacts.php:203
+msgid "No rows to import."
+msgstr ""
+
+#: includes/rest/class-rayetun-crm-rest-contacts.php:207
+msgid "Import at most 2000 rows per request."
+msgstr ""
+
+#: includes/rest/class-rayetun-crm-rest-contacts.php:230
+msgid "You are not allowed to delete contacts."
+msgstr ""
+
+#: includes/rest/class-rayetun-crm-rest-views.php:142
+msgid "A view name is required."
+msgstr ""
+
+#: admin/js/lead-form-block.js:22
+msgid "RayEtun CRM Lead Form"
+msgstr ""
+
+#: admin/js/lead-form-block.js:23
+msgid "A lead-capture form that creates a contact in RayEtun CRM on submit."
+msgstr ""
+
+#: admin/js/lead-form-block.js:48
+msgid "Form settings"
+msgstr ""
+
+#: admin/js/lead-form-block.js:50
+#: src/views/task-panel.js:90
+msgid "Title"
+msgstr ""
+
+#: admin/js/lead-form-block.js:55
+msgid "Button label"
+msgstr ""
+
+#: admin/js/lead-form-block.js:60
+msgid "Tags (comma separated)"
+msgstr ""
+
+#: admin/js/lead-form-block.js:61
+msgid "Applied to every contact captured by this form."
+msgstr ""
+
+#: admin/js/lead-form-block.js:66
+msgid "Source label"
+msgstr ""
+
+#: admin/js/lead-form-block.js:73
+msgid "Fields"
+msgstr ""
+
+#: admin/js/lead-form-block.js:74
+msgid "First name and email are always shown. Email is required."
+msgstr ""
+
+#: admin/js/lead-form-block.js:76
+msgid "Show last name"
+msgstr ""
+
+#: admin/js/lead-form-block.js:81
+msgid "Show phone"
+msgstr ""
+
+#: admin/js/lead-form-block.js:86
+msgid "Show message"
+msgstr ""
+
+#: src/app.js:21
+msgid "Your CRM at a glance."
+msgstr ""
+
+#: src/app.js:22
+msgid "People and companies you work with."
+msgstr ""
+
+#: src/app.js:23
+msgid "Pipeline"
+msgstr ""
+
+#: src/app.js:23
+msgid "Move deals through your stages."
+msgstr ""
+
+#: src/app.js:24
+msgid "Tasks"
+msgstr ""
+
+#: src/app.js:24
+msgid "Follow-ups and reminders."
+msgstr ""
+
+#: src/app.js:25
+msgid "Pipeline and lead insights."
+msgstr ""
+
+#: src/app.js:26
+msgid "Settings"
+msgstr ""
+
+#: src/app.js:26
+msgid "Configure RayEtun CRM."
+msgstr ""
+
+#: src/app.js:49
+msgid "Failed to load."
+msgstr ""
+
+#: src/app.js:86
+msgid "overdue tasks"
+msgstr ""
+
+#: src/app.js:110
+#: src/views/contact-panel.js:619
+#: src/views/contacts.js:359
+#: src/views/dashboard.js:66
+#: src/views/modules.js:81
+#: src/views/pipeline.js:113
+#: src/views/reports.js:58
+#: src/views/reports.js:68
+#: src/views/reports.js:99
+#: src/views/settings.js:90
+#: src/views/tasks.js:105
+msgid "Loading…"
+msgstr ""
+
+#: src/app.js:136
+msgid "The Sales pipeline module is turned off. Enable it under Settings → Modules."
+msgstr ""
+
+#: src/app.js:142
+msgid "The Tasks module is turned off. Enable it under Settings → Modules."
+msgstr ""
+
+#: src/lib/charts.js:33
+msgid "Contacts over time"
+msgstr ""
+
+#: src/lib/charts.js:64
+#: src/views/reports.js:64
+msgid "Lead sources"
+msgstr ""
+
+#: src/views/contact-panel.js:13
+#: src/views/contacts.js:27
+msgid "Cold"
+msgstr ""
+
+#: src/views/contact-panel.js:14
+#: src/views/contacts.js:28
+msgid "Warm"
+msgstr ""
+
+#: src/views/contact-panel.js:15
+#: src/views/contacts.js:29
+msgid "Hot"
+msgstr ""
+
+#: src/views/contact-panel.js:16
+#: src/views/contacts.js:30
+msgid "Very hot"
+msgstr ""
+
+#. translators: 1: old status, 2: new status.
+#: src/views/contact-panel.js:124
+#, js-format
+msgid "Status changed from %1$s to %2$s"
+msgstr ""
+
+#: src/views/contact-panel.js:130
+#: src/views/dashboard.js:20
+msgid "Contact created"
+msgstr ""
+
+#: src/views/contact-panel.js:133
+msgid "a form"
+msgstr ""
+
+#. translators: %s: form name.
+#: src/views/contact-panel.js:136
+#, js-format
+msgid "Submitted %s"
+msgstr ""
+
+#. translators: %s: email subject.
+#: src/views/contact-panel.js:144
+#, js-format
+msgid "Emailed: %s"
+msgstr ""
+
+#: src/views/contact-panel.js:147
+msgid "failed"
+msgstr ""
+
+#. translators: 1: order number, 2: currency symbol, 3: total.
+#: src/views/contact-panel.js:152
+#, js-format
+msgid "Placed order #%1$s — %2$s%3$s"
+msgstr ""
+
+#: src/views/contact-panel.js:236
+msgid "Could not send the email."
+msgstr ""
+
+#: src/views/contact-panel.js:261
+msgid "Could not update the subscription."
+msgstr ""
+
+#: src/views/contact-panel.js:295
+msgid "Could not save the contact."
+msgstr ""
+
+#: src/views/contact-panel.js:303
+msgid "Delete this contact? This cannot be undone."
+msgstr ""
+
+#: src/views/contact-panel.js:311
+msgid "Could not delete the contact."
+msgstr ""
+
+#: src/views/contact-panel.js:326
+msgid "Could not add the note."
+msgstr ""
+
+#: src/views/contact-panel.js:341
+msgid "New contact"
+msgstr ""
+
+#: src/views/contact-panel.js:344
+msgid "Edit contact"
+msgstr ""
+
+#: src/views/contact-panel.js:346
+#: src/views/deal-panel.js:98
+#: src/views/import-dialog.js:154
+#: src/views/task-panel.js:83
+msgid "Close"
+msgstr ""
+
+#: src/views/contact-panel.js:357
+msgid "Details"
+msgstr ""
+
+#: src/views/contact-panel.js:363
+msgid "Activity"
+msgstr ""
+
+#: src/views/contact-panel.js:377
+msgid "Lead score"
+msgstr ""
+
+#: src/views/contact-panel.js:385
+#: src/views/contact-panel.js:479
+#: src/views/contacts.js:16
+#: src/views/import-dialog.js:16
+#: src/views/task-panel.js:115
+#: src/views/tasks.js:100
+msgid "Status"
+msgstr ""
+
+#. translators: %d: number of tags.
+#: src/views/contact-panel.js:393
+#, js-format
+msgid "%d tag"
+msgid_plural "%d tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/contact-panel.js:396
+msgid "No tags"
+msgstr ""
+
+#: src/views/contact-panel.js:401
+msgid "Lifetime value"
+msgstr ""
+
+#. translators: %d: number of orders.
+#: src/views/contact-panel.js:409
+#: src/views/contact-panel.js:523
+#, js-format
+msgid "%d order"
+msgid_plural "%d orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/contact-panel.js:416
+msgid "Contact age"
+msgstr ""
+
+#. translators: %d: number of days.
+#: src/views/contact-panel.js:421
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/contact-panel.js:435
+msgid "Toggle email subscription"
+msgstr ""
+
+#: src/views/contact-panel.js:439
+msgid "Email: Subscribed"
+msgstr ""
+
+#: src/views/contact-panel.js:440
+msgid "Email: Unsubscribed"
+msgstr ""
+
+#: src/views/contact-panel.js:467
+#: src/views/import-dialog.js:14
+msgid "Company"
+msgstr ""
+
+#: src/views/contact-panel.js:473
+#: src/views/import-dialog.js:15
+msgid "Website"
+msgstr ""
+
+#: src/views/contact-panel.js:487
+#: src/views/contacts.js:17
+#: src/views/import-dialog.js:17
+#: src/views/reports.js:37
+msgid "Source"
+msgstr ""
+
+#: src/views/contact-panel.js:493
+#: src/views/contacts.js:19
+#: src/views/import-dialog.js:18
+msgid "Tags"
+msgstr ""
+
+#: src/views/contact-panel.js:498
+msgid "Comma separated"
+msgstr ""
+
+#: src/views/contact-panel.js:504
+#: src/views/settings.js:83
+msgid "Custom fields"
+msgstr ""
+
+#: src/views/contact-panel.js:518
+msgid "Purchases"
+msgstr ""
+
+#: src/views/contact-panel.js:546
+msgid "Star this contact"
+msgstr ""
+
+#: src/views/contact-panel.js:557
+msgid "✉ Send email"
+msgstr ""
+
+#: src/views/contact-panel.js:563
+msgid "Use a template…"
+msgstr ""
+
+#: src/views/contact-panel.js:571
+#: src/views/email-templates.js:69
+#: src/views/email-templates.js:102
+msgid "Subject"
+msgstr ""
+
+#: src/views/contact-panel.js:577
+msgid "Write your message… {{first_name}} is supported"
+msgstr ""
+
+#: src/views/contact-panel.js:584
+#: src/views/contact-panel.js:652
+#: src/views/deal-panel.js:165
+#: src/views/import-dialog.js:234
+#: src/views/task-panel.js:144
+msgid "Cancel"
+msgstr ""
+
+#: src/views/contact-panel.js:591
+msgid "Sending…"
+msgstr ""
+
+#: src/views/contact-panel.js:604
+msgid "Add a note…"
+msgstr ""
+
+#: src/views/contact-panel.js:613
+#: src/views/settings.js:154
+msgid "Adding…"
+msgstr ""
+
+#: src/views/contact-panel.js:613
+msgid "Add note"
+msgstr ""
+
+#: src/views/contact-panel.js:622
+#: src/views/dashboard.js:163
+msgid "No activity yet."
+msgstr ""
+
+#: src/views/contact-panel.js:647
+#: src/views/contacts.js:323
+#: src/views/deal-panel.js:160
+#: src/views/email-templates.js:88
+#: src/views/settings.js:120
+#: src/views/task-panel.js:139
+msgid "Delete"
+msgstr ""
+
+#: src/views/contact-panel.js:656
+#: src/views/deal-panel.js:169
+#: src/views/email-templates.js:112
+#: src/views/task-panel.js:148
+msgid "Saving…"
+msgstr ""
+
+#: src/views/contact-panel.js:656
+msgid "Save contact"
+msgstr ""
+
+#: src/views/contacts.js:15
+#: src/views/email-templates.js:68
+#: src/views/email-templates.js:101
+msgid "Name"
+msgstr ""
+
+#: src/views/contacts.js:18
+msgid "Score"
+msgstr ""
+
+#: src/views/contacts.js:20
+msgid "Added"
+msgstr ""
+
+#: src/views/contacts.js:103
+msgid "Name this view"
+msgstr ""
+
+#: src/views/contacts.js:111
+msgid "Could not save the view."
+msgstr ""
+
+#: src/views/contacts.js:118
+msgid "Delete this saved view?"
+msgstr ""
+
+#: src/views/contacts.js:128
+msgid "Could not delete the view."
+msgstr ""
+
+#: src/views/contacts.js:140
+msgid "Failed to load contacts."
+msgstr ""
+
+#. translators: %d: number of contacts.
+#: src/views/contacts.js:180
+#, js-format
+msgid "Delete %d selected contact(s)? This cannot be undone."
+msgstr ""
+
+#: src/views/contacts.js:195
+msgid "Bulk action failed."
+msgstr ""
+
+#: src/views/contacts.js:217
+msgid "Export failed."
+msgstr ""
+
+#: src/views/contacts.js:238
+msgid "All contacts"
+msgstr ""
+
+#: src/views/contacts.js:247
+msgid "Delete view"
+msgstr ""
+
+#: src/views/contacts.js:251
+msgid "+ Save view"
+msgstr ""
+
+#: src/views/contacts.js:261
+msgid "Search name or email…"
+msgstr ""
+
+#: src/views/contacts.js:270
+#: src/views/tasks.js:77
+msgid "All statuses"
+msgstr ""
+
+#: src/views/contacts.js:276
+msgid "Exporting…"
+msgstr ""
+
+#: src/views/contacts.js:276
+msgid "Export"
+msgstr ""
+
+#: src/views/contacts.js:280
+#: src/views/import-dialog.js:223
+msgid "Import"
+msgstr ""
+
+#: src/views/contacts.js:285
+msgid "+ Add contact"
+msgstr ""
+
+#. translators: %d: number selected.
+#: src/views/contacts.js:297
+#, js-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/contacts.js:306
+msgid "Set status"
+msgstr ""
+
+#: src/views/contacts.js:312
+msgid "Tag(s), comma separated"
+msgstr ""
+
+#: src/views/contacts.js:317
+msgid "Add tag"
+msgstr ""
+
+#: src/views/contacts.js:327
+msgid "Clear"
+msgstr ""
+
+#: src/views/contacts.js:338
+msgid "Select all"
+msgstr ""
+
+#: src/views/contacts.js:362
+msgid "No contacts yet."
+msgstr ""
+
+#: src/views/contacts.js:368
+msgid "Select contact"
+msgstr ""
+
+#. translators: %d: total contacts.
+#: src/views/contacts.js:410
+#, js-format
+msgid "%d contact"
+msgid_plural "%d contacts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/contacts.js:415
+msgid "Prev"
+msgstr ""
+
+#: src/views/contacts.js:417
+msgid "Next"
+msgstr ""
+
+#: src/views/dashboard.js:14
+msgid "Note added"
+msgstr ""
+
+#: src/views/dashboard.js:17
+msgid "Status changed"
+msgstr ""
+
+#: src/views/dashboard.js:23
+msgid "Form submitted"
+msgstr ""
+
+#: src/views/dashboard.js:26
+msgid "Email sent"
+msgstr ""
+
+#: src/views/dashboard.js:50
+msgid "Add contact"
+msgstr ""
+
+#: src/views/dashboard.js:51
+msgid "Add deal"
+msgstr ""
+
+#: src/views/dashboard.js:52
+msgid "View reports"
+msgstr ""
+
+#: src/views/dashboard.js:53
+#: src/views/email-templates.js:58
+msgid "Email templates"
+msgstr ""
+
+#: src/views/dashboard.js:59
+msgid "Failed to load the dashboard."
+msgstr ""
+
+#: src/views/dashboard.js:76
+msgid "Leads this week"
+msgstr ""
+
+#. translators: %d: change vs last week.
+#: src/views/dashboard.js:82
+#, js-format
+msgid "%d vs last week"
+msgstr ""
+
+#: src/views/dashboard.js:88
+#: src/views/pipeline.js:142
+msgid "Open pipeline"
+msgstr ""
+
+#: src/views/dashboard.js:90
+msgid "in active deals"
+msgstr ""
+
+#: src/views/dashboard.js:93
+msgid "Revenue this month"
+msgstr ""
+
+#: src/views/dashboard.js:95
+msgid "from won deals"
+msgstr ""
+
+#: src/views/dashboard.js:98
+msgid "Tasks due today"
+msgstr ""
+
+#. translators: %d: overdue tasks.
+#: src/views/dashboard.js:104
+#, js-format
+msgid "%d overdue"
+msgid_plural "%d overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/dashboard.js:107
+msgid "nothing overdue"
+msgstr ""
+
+#: src/views/dashboard.js:114
+msgid "Quick actions"
+msgstr ""
+
+#: src/views/dashboard.js:129
+msgid "Today's hot leads"
+msgstr ""
+
+#: src/views/dashboard.js:130
+msgid "No leads yet."
+msgstr ""
+
+#: src/views/dashboard.js:143
+msgid "Pipeline value by stage"
+msgstr ""
+
+#: src/views/dashboard.js:162
+msgid "Recent activity"
+msgstr ""
+
+#: src/views/deal-panel.js:71
+msgid "Could not save the deal."
+msgstr ""
+
+#: src/views/deal-panel.js:79
+msgid "Delete this deal? This cannot be undone."
+msgstr ""
+
+#: src/views/deal-panel.js:87
+msgid "Could not delete the deal."
+msgstr ""
+
+#: src/views/deal-panel.js:97
+msgid "New deal"
+msgstr ""
+
+#: src/views/deal-panel.js:97
+msgid "Edit deal"
+msgstr ""
+
+#: src/views/deal-panel.js:105
+msgid "Deal title"
+msgstr ""
+
+#: src/views/deal-panel.js:111
+#: src/views/reports.js:40
+msgid "Value"
+msgstr ""
+
+#: src/views/deal-panel.js:115
+msgid "Currency"
+msgstr ""
+
+#: src/views/deal-panel.js:122
+#: src/views/reports.js:40
+msgid "Stage"
+msgstr ""
+
+#: src/views/deal-panel.js:130
+msgid "Probability %"
+msgstr ""
+
+#: src/views/deal-panel.js:137
+msgid "Expected close"
+msgstr ""
+
+#: src/views/deal-panel.js:141
+#: src/views/task-panel.js:123
+#: src/views/tasks.js:99
+msgid "Contact"
+msgstr ""
+
+#: src/views/deal-panel.js:143
+#: src/views/task-panel.js:125
+msgid "— None —"
+msgstr ""
+
+#: src/views/deal-panel.js:152
+#: src/views/task-panel.js:131
+msgid "Notes"
+msgstr ""
+
+#: src/views/deal-panel.js:169
+msgid "Save deal"
+msgstr ""
+
+#: src/views/email-templates.js:19
+msgid "Failed to load templates."
+msgstr ""
+
+#: src/views/email-templates.js:37
+msgid "Could not save the template."
+msgstr ""
+
+#: src/views/email-templates.js:45
+msgid "Delete this template?"
+msgstr ""
+
+#: src/views/email-templates.js:52
+msgid "Could not delete the template."
+msgstr ""
+
+#: src/views/email-templates.js:60
+msgid "Reusable messages for 1-to-1 email. Variables: {{first_name}}, {{last_name}}, {{full_name}}, {{company}}, {{email}}."
+msgstr ""
+
+#: src/views/email-templates.js:77
+msgid "No templates yet."
+msgstr ""
+
+#: src/views/email-templates.js:99
+msgid "Add a template"
+msgstr ""
+
+#: src/views/email-templates.js:107
+msgid "Message body…"
+msgstr ""
+
+#: src/views/email-templates.js:112
+msgid "Add template"
+msgstr ""
+
+#: src/views/import-dialog.js:10
+msgid "Email (required)"
+msgstr ""
+
+#: src/views/import-dialog.js:101
+msgid "The file has no data rows."
+msgstr ""
+
+#: src/views/import-dialog.js:114
+msgid "Could not read the file."
+msgstr ""
+
+#: src/views/import-dialog.js:120
+msgid "Map the Email column before importing."
+msgstr ""
+
+#: src/views/import-dialog.js:142
+msgid "Import failed."
+msgstr ""
+
+#: src/views/import-dialog.js:153
+msgid "Import contacts from CSV"
+msgstr ""
+
+#: src/views/import-dialog.js:162
+msgid "Choose a .csv file. The first row should be column headers."
+msgstr ""
+
+#. translators: %d: number of rows.
+#: src/views/import-dialog.js:172
+#, js-format
+msgid "%d rows detected. Match your columns to contact fields."
+msgstr ""
+
+#: src/views/import-dialog.js:183
+msgid "— Not mapped —"
+msgstr ""
+
+#: src/views/import-dialog.js:191
+msgid "Duplicate emails"
+msgstr ""
+
+#: src/views/import-dialog.js:194
+msgid "Skip existing contacts"
+msgstr ""
+
+#: src/views/import-dialog.js:198
+msgid "Update existing contacts"
+msgstr ""
+
+#: src/views/import-dialog.js:206
+msgid "Created"
+msgstr ""
+
+#: src/views/import-dialog.js:207
+msgid "Updated"
+msgstr ""
+
+#: src/views/import-dialog.js:208
+msgid "Skipped"
+msgstr ""
+
+#: src/views/import-dialog.js:209
+msgid "Errors"
+msgstr ""
+
+#: src/views/import-dialog.js:220
+msgid "Back"
+msgstr ""
+
+#: src/views/import-dialog.js:223
+msgid "Importing…"
+msgstr ""
+
+#: src/views/import-dialog.js:229
+msgid "Done"
+msgstr ""
+
+#: src/views/modules.js:15
+msgid "Always on"
+msgstr ""
+
+#: src/views/modules.js:47
+msgid "Failed to load modules."
+msgstr ""
+
+#: src/views/modules.js:66
+msgid "Could not update the module."
+msgstr ""
+
+#: src/views/modules.js:74
+msgid "Modules"
+msgstr ""
+
+#: src/views/modules.js:76
+msgid "Turn optional features on or off to keep your CRM lean. Changes apply instantly — switching a module off hides it everywhere but never deletes your data, so you can turn it back on any time."
+msgstr ""
+
+#: src/views/modules.js:92
+msgid "Core"
+msgstr ""
+
+#: src/views/modules.js:93
+msgid "Unavailable"
+msgstr ""
+
+#: src/views/modules.js:108
+msgid "Install and activate WooCommerce to use this module."
+msgstr ""
+
+#: src/views/onboarding.js:11
+msgid "Manage contacts"
+msgstr ""
+
+#: src/views/onboarding.js:11
+msgid "Custom fields, tags, notes and a full activity timeline for every lead and customer."
+msgstr ""
+
+#: src/views/onboarding.js:12
+msgid "Work your pipeline"
+msgstr ""
+
+#: src/views/onboarding.js:12
+msgid "Drag deals across stages on a visual Kanban board with live totals and analytics."
+msgstr ""
+
+#: src/views/onboarding.js:13
+msgid "Capture leads"
+msgstr ""
+
+#: src/views/onboarding.js:13
+msgid "Auto-capture from Contact Form 7, WPForms and Fluent Forms, or use the built-in form."
+msgstr ""
+
+#: src/views/onboarding.js:14
+msgid "Sync WooCommerce"
+msgstr ""
+
+#: src/views/onboarding.js:14
+msgid "Paid orders become contacts with purchase history and deals — automatically."
+msgstr ""
+
+#: src/views/onboarding.js:48
+msgid "Welcome to RayEtun CRM"
+msgstr ""
+
+#: src/views/onboarding.js:51
+msgid "Your self-hosted CRM — leads, pipeline, tasks and reports, all in WordPress. Here is what you can do:"
+msgstr ""
+
+#: src/views/onboarding.js:67
+msgid "Drop this on any page to capture leads:"
+msgstr ""
+
+#: src/views/onboarding.js:70
+msgid "Copied!"
+msgstr ""
+
+#: src/views/onboarding.js:70
+msgid "Copy"
+msgstr ""
+
+#: src/views/onboarding.js:76
+msgid "Get started"
+msgstr ""
+
+#: src/views/pipeline.js:20
+msgid "The Sales pipeline module is turned off. Enable it under Settings → Modules, then reload this page."
+msgstr ""
+
+#: src/views/pipeline.js:48
+msgid "Failed to load the pipeline."
+msgstr ""
+
+#: src/views/pipeline.js:56
+msgid "No pipeline found."
+msgstr ""
+
+#: src/views/pipeline.js:64
+msgid "Failed to load pipelines."
+msgstr ""
+
+#: src/views/pipeline.js:103
+msgid "Could not move the deal."
+msgstr ""
+
+#: src/views/pipeline.js:132
+msgid "+ Add deal"
+msgstr ""
+
+#. translators: %d: number of open deals.
+#: src/views/pipeline.js:146
+#, js-format
+msgid "%d open deal"
+msgid_plural "%d open deals"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/pipeline.js:151
+msgid "Win rate"
+msgstr ""
+
+#. translators: 1: number won, 2: number lost.
+#: src/views/pipeline.js:155
+#, js-format
+msgid "%1$d won · %2$d lost"
+msgstr ""
+
+#: src/views/pipeline.js:161
+msgid "Avg. days to close"
+msgstr ""
+
+#: src/views/pipeline.js:163
+msgid "won deals"
+msgstr ""
+
+#: src/views/pipeline.js:166
+msgid "Won this month"
+msgstr ""
+
+#. translators: %d: number of deals.
+#: src/views/pipeline.js:170
+#, js-format
+msgid "%d deal"
+msgid_plural "%d deals"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/pipeline.js:178
+msgid "Tip: drag a card to move it between stages — or press Enter on a card to open it and change its stage."
+msgstr ""
+
+#. translators: 1: stage name, 2: number of deals.
+#: src/views/pipeline.js:189
+#, js-format
+msgid "%1$s, %2$d deal"
+msgid_plural "%1$s, %2$d deals"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: deal title, 2: deal value.
+#: src/views/pipeline.js:213
+#, js-format
+msgid "%1$s, %2$s. Press Enter to open and change its stage."
+msgstr ""
+
+#. translators: %d: number of days.
+#: src/views/pipeline.js:241
+#, js-format
+msgid "%d day in stage"
+msgid_plural "%d days in stage"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/pipeline.js:250
+msgid "No deals"
+msgstr ""
+
+#: src/views/reports.js:34
+msgid "Period"
+msgstr ""
+
+#: src/views/reports.js:40
+msgid "Deals"
+msgstr ""
+
+#: src/views/reports.js:50
+msgid "Contacts added over time"
+msgstr ""
+
+#: src/views/reports.js:53
+msgid "Weekly"
+msgstr ""
+
+#: src/views/reports.js:54
+msgid "Monthly"
+msgstr ""
+
+#: src/views/reports.js:56
+#: src/views/reports.js:66
+#: src/views/reports.js:75
+msgid "Export CSV"
+msgstr ""
+
+#: src/views/reports.js:68
+msgid "No data yet."
+msgstr ""
+
+#: src/views/reports.js:73
+msgid "Pipeline conversion"
+msgstr ""
+
+#. translators: 1: win rate, 2: won, 3: lost.
+#: src/views/reports.js:92
+#, js-format
+msgid "Win rate %1$d%% · %2$d won · %3$d lost"
+msgstr ""
+
+#: src/views/settings.js:14
+msgid "Text"
+msgstr ""
+
+#: src/views/settings.js:15
+msgid "Number"
+msgstr ""
+
+#: src/views/settings.js:16
+msgid "Date"
+msgstr ""
+
+#: src/views/settings.js:17
+msgid "Dropdown"
+msgstr ""
+
+#: src/views/settings.js:18
+msgid "Checkbox"
+msgstr ""
+
+#: src/views/settings.js:19
+msgid "URL"
+msgstr ""
+
+#: src/views/settings.js:36
+msgid "Failed to load fields."
+msgstr ""
+
+#: src/views/settings.js:59
+msgid "Could not add the field."
+msgstr ""
+
+#: src/views/settings.js:67
+msgid "Delete this field and all its stored values?"
+msgstr ""
+
+#: src/views/settings.js:74
+msgid "Could not delete the field."
+msgstr ""
+
+#: src/views/settings.js:85
+msgid "Add extra fields to every contact record."
+msgstr ""
+
+#: src/views/settings.js:96
+#: src/views/settings.js:136
+msgid "Label"
+msgstr ""
+
+#: src/views/settings.js:97
+msgid "Key"
+msgstr ""
+
+#: src/views/settings.js:98
+#: src/views/task-panel.js:96
+#: src/views/tasks.js:96
+msgid "Type"
+msgstr ""
+
+#: src/views/settings.js:99
+msgid "Options"
+msgstr ""
+
+#: src/views/settings.js:107
+msgid "No custom fields yet."
+msgstr ""
+
+#: src/views/settings.js:132
+msgid "Add a field"
+msgstr ""
+
+#: src/views/settings.js:148
+msgid "Options, comma separated"
+msgstr ""
+
+#: src/views/settings.js:154
+msgid "Add field"
+msgstr ""
+
+#: src/views/task-panel.js:56
+msgid "Could not save the task."
+msgstr ""
+
+#: src/views/task-panel.js:64
+msgid "Delete this task?"
+msgstr ""
+
+#: src/views/task-panel.js:72
+msgid "Could not delete the task."
+msgstr ""
+
+#: src/views/task-panel.js:82
+msgid "New task"
+msgstr ""
+
+#: src/views/task-panel.js:82
+msgid "Edit task"
+msgstr ""
+
+#: src/views/task-panel.js:102
+#: src/views/tasks.js:97
+msgid "Priority"
+msgstr ""
+
+#: src/views/task-panel.js:111
+#: src/views/tasks.js:98
+msgid "Due"
+msgstr ""
+
+#: src/views/task-panel.js:148
+msgid "Save task"
+msgstr ""
+
+#: src/views/tasks.js:11
+msgid "All"
+msgstr ""
+
+#: src/views/tasks.js:12
+msgid "Due today"
+msgstr ""
+
+#: src/views/tasks.js:13
+msgid "Overdue"
+msgstr ""
+
+#: src/views/tasks.js:14
+msgid "Upcoming"
+msgstr ""
+
+#: src/views/tasks.js:41
+msgid "Failed to load tasks."
+msgstr ""
+
+#: src/views/tasks.js:54
+msgid "Could not update the task."
+msgstr ""
+
+#: src/views/tasks.js:83
+msgid "+ Add task"
+msgstr ""
+
+#: src/views/tasks.js:95
+msgid "Task"
+msgstr ""
+
+#: src/views/tasks.js:108
+msgid "No tasks here."
+msgstr ""
+
+#: src/views/tasks.js:114
+msgid "Complete task"
+msgstr ""

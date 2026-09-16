@@ -1,0 +1,36 @@
+name: Deploy to WordPress.org
+
+# Publishing a GitHub release (tag = the version, e.g. 1.0.0) builds the admin
+# app and deploys trunk + a version tag + the /assets to the WordPress.org SVN.
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the admin app
+        run: npm run build
+
+      - name: WordPress Plugin Deploy
+        uses: 10up/action-wordpress-plugin-deploy@stable
+        with:
+          generate-zip: true
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: rayetun-crm

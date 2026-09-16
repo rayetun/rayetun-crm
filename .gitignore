@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+
+# Build output — generated fresh in CI on each release deploy
+/build
+
+# Packaged zips
+*.zip
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+/.linktest
