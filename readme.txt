@@ -13,20 +13,20 @@ A self-hosted WordPress CRM: visual sales pipeline, lead capture from any form, 
 
 == Description ==
 
-📇 **RayEtun CRM** turns your WordPress site into a complete, self-hosted CRM — a visual sales pipeline, automatic lead capture, contact management, tasks, email and reporting — **without a monthly SaaS bill and without your customer data ever leaving your server**.
+📇 **RayEtun CRM** turns your WordPress site into a complete, self-hosted CRM: a visual sales pipeline, automatic lead capture, contact management, tasks, email and reporting, **without a monthly SaaS bill and without your customer data ever leaving your server**.
 
-Built for freelancers, consultants, agencies, and small businesses who already run their site on WordPress and want their leads, deals, and customers in one place — managed from a fast, modern admin app that feels like a dedicated product.
+Built for freelancers, consultants, agencies, and small businesses who already run their site on WordPress and want their leads, deals, and customers in one place, managed from a fast, modern admin app that feels like a dedicated product.
 
 Everything lives in your own WordPress database. There is no external account, no per-seat pricing, and no data sent off-site.
 
 = How RayEtun CRM is organised =
 
-* 💾 **Own your data** — every contact, deal, task, and note is stored in your own database. No third-party cloud, no vendor lock-in, no row-count surcharges.
-* 🧲 **Pipeline-first** — a fast, drag-and-drop Kanban board is the heart of the product; see every deal and move it through your stages in seconds.
-* 🪶 **Lightweight** — the CRM runs as a self-contained app in wp-admin and adds **zero front-end JavaScript** to your public pages, so your site stays fast.
-* 🧩 **Modular** — turn optional features on or off under **Settings → Modules** to keep the admin lean. Switching a module off hides it everywhere but never deletes your data.
-* ♿ **Accessible** — the admin app is keyboard-operable end to end, with managed focus, a focus-trapped and Escape-closable slide-over pattern, visible focus rings, and reduced-motion support.
-* 🔌 **Extensible** — a documented hooks and filters layer lets add-ons extend the CRM without editing core.
+* 💾 **Own your data.** Every contact, deal, task, and note is stored in your own database. No third-party cloud, no vendor lock-in, no row-count surcharges.
+* 🧲 **Pipeline-first.** A fast, drag-and-drop Kanban board is the heart of the product; see every deal and move it through your stages in seconds.
+* 🪶 **Lightweight.** The CRM runs as a self-contained app in wp-admin and adds **zero front-end JavaScript** to your public pages, so your site stays fast.
+* 🧩 **Modular.** Turn optional features on or off under **Settings → Modules** to keep the admin lean. Switching a module off hides it everywhere but never deletes your data.
+* ♿ **Accessible.** The admin app is keyboard-operable end to end, with managed focus, a focus-trapped and Escape-closable slide-over pattern, visible focus rings, and reduced-motion support.
+* 🔌 **Extensible.** A documented hooks and filters layer lets add-ons extend the CRM without editing core.
 
 ---
 
@@ -35,8 +35,8 @@ Everything lives in your own WordPress database. There is no external account, n
 * ♾️ **Unlimited contacts** with custom fields, tags, notes, and a full activity timeline
 * 🏢 Companies, lead status, source, and owner on every record
 * ⚡ Fast search, sortable columns, status filters, and **saved filter views**
-* 🧮 At-a-glance **summary tiles** on each contact — lead score, status, and lifetime value
-* 📬 Per-contact **email subscription status** — sending from the CRM respects an unsubscribed contact
+* 🧮 At-a-glance **summary tiles** on each contact: lead score, status, and lifetime value
+* 📬 Per-contact **email subscription status**; sending from the CRM respects an unsubscribed contact
 * ☑️ Bulk actions: set status, add tags, delete
 * 📥 **CSV import** (with column mapping and duplicate handling) and CSV export
 
@@ -44,7 +44,7 @@ Everything lives in your own WordPress database. There is no external account, n
 
 = 📊 Visual sales pipeline =
 
-* 🟦 **Drag-and-drop Kanban board** with colour-coded stages — or open a deal and change its stage from the keyboard
+* 🟦 **Drag-and-drop Kanban board** with colour-coded stages, or open a deal and change its stage from the keyboard
 * 💼 Deal records with value, currency, expected close date, probability, and linked contacts
 * 📈 Per-stage totals and a **pipeline analytics bar**: open value, win rate, average days to close, revenue won this month
 * ⏱️ Days-in-stage tracking on every deal card
@@ -53,9 +53,9 @@ Everything lives in your own WordPress database. There is no external account, n
 
 = 🧲 Lead capture =
 
-* 📝 A native, server-rendered lead form via the `[rayetun_crm_form]` shortcode and a **RayEtun CRM Lead Form** block — no front-end JavaScript, with a spam honeypot, and customisable fields right in the block editor
+* 📝 A native, server-rendered lead form via the `[rayetun_crm_form]` shortcode and a **RayEtun CRM Lead Form** block, with no front-end JavaScript, a spam honeypot, and customisable fields right in the block editor
 * 🔗 Automatic UTM/source tracking captured from the landing page
-* 🔌 Auto-capture from **Contact Form 7**, **WPForms**, and **Fluent Forms** — submissions become contacts with the message and source recorded
+* 🔌 Auto-capture from **Contact Form 7**, **WPForms**, and **Fluent Forms**: submissions become contacts with the message and source recorded
 
 ---
 
@@ -70,8 +70,8 @@ Everything lives in your own WordPress database. There is no external account, n
 = 📈 Dashboard & reports =
 
 * 📊 A **dashboard** with leads this week, open pipeline value, revenue this month, hot leads, pipeline value by stage, quick-action shortcuts, and a recent-activity feed
-* 📉 **Reports**: contacts added over time, lead-source breakdown, and pipeline conversion — each exportable to CSV
-* 🖊️ Charts are hand-drawn inline SVG with `role="img"` labels and a text legend — no charting library loaded
+* 📉 **Reports**: contacts added over time, lead-source breakdown, and pipeline conversion, each exportable to CSV
+* 🖊️ Charts are hand-drawn inline SVG with `role="img"` labels and a text legend; no charting library loaded
 
 ---
 
@@ -85,19 +85,19 @@ Everything lives in your own WordPress database. There is no external account, n
 
 = 🧩 Modular by design =
 
-Under **Settings → Modules** you can switch the Sales pipeline, Lead capture forms, Tasks, Email, and WooCommerce sync on or off. Core areas — Contacts, Dashboard, Reports, and Lead scoring — are always on. Turning a module off suspends its menus, REST routes, and scheduled work, but never deletes your data, so you can turn it back on any time.
+Under **Settings → Modules** you can switch the Sales pipeline, Lead capture forms, Tasks, Email, and WooCommerce sync on or off. Core areas (Contacts, Dashboard, Reports, and Lead scoring) are always on. Turning a module off suspends its menus, REST routes, and scheduled work, but never deletes your data, so you can turn it back on any time.
 
 ---
 
 = 🔒 Roles & permissions =
 
-RayEtun CRM maps onto your **existing WordPress roles** — administrators get full management, editors act as agents. It adds three capabilities to those roles rather than creating new ones, and removes them cleanly on uninstall.
+RayEtun CRM maps onto your **existing WordPress roles**: administrators get full management, editors act as agents. It adds three capabilities to those roles rather than creating new ones, and removes them cleanly on uninstall.
 
 ---
 
 = 🚀 Pro (coming soon) =
 
-Everything described above is included and fully functional — there are no locked features, usage caps, or upgrade prompts. A separate Pro add-on is planned that would *add* new capabilities not present here — behavioural lead scoring, automation and email sequences, a client portal, multisite management, and an external API — built on the same extension hooks this free plugin exposes. The free plugin bundles no premium SDK.
+Everything described above is included and fully functional, with no locked features, usage caps, or upgrade prompts. A separate Pro add-on is planned that would *add* new capabilities not present here (behavioural lead scoring, automation and email sequences, a client portal, multisite management, and an external API), built on the same extension hooks this free plugin exposes. The free plugin bundles no premium SDK.
 
 RayEtun CRM is a CRM, not a bulk email marketing tool. For newsletters and mass campaigns, pair it with a dedicated email plugin.
 
@@ -106,7 +106,7 @@ RayEtun CRM is a CRM, not a bulk email marketing tool. For newsletters and mass 
 * Contact Form 7, WPForms, and Fluent Forms (lead auto-capture)
 * WooCommerce (order sync and purchase history)
 * The WordPress block editor (native Lead Form block) and any theme
-* Existing WordPress roles — no custom roles created
+* Existing WordPress roles; no custom roles created
 
 == Installation ==
 
@@ -125,7 +125,7 @@ No. All CRM data lives in your own WordPress database, and the plugin makes no e
 
 = 🔌 Which form plugins are supported? =
 
-Contact Form 7, WPForms, and Fluent Forms are auto-detected — submissions become contacts automatically. There is also a built-in native form (shortcode and block). More integrations are added in future updates.
+Contact Form 7, WPForms, and Fluent Forms are auto-detected; submissions become contacts automatically. There is also a built-in native form (shortcode and block). More integrations are added in future updates.
 
 = 👣 Does it track my visitors? =
 
@@ -153,7 +153,7 @@ Everything is removed cleanly: all of the plugin's custom database tables are dr
 
 = 🚀 Is there a Pro version? =
 
-This free plugin is fully functional with no locked features or usage caps. A separate Pro add-on is planned that would add new capabilities — behavioural lead scoring, automation and sequences, a client portal, multisite management, and an external API. It bundles no premium SDK.
+This free plugin is fully functional with no locked features or usage caps. A separate Pro add-on is planned that would add new capabilities: behavioural lead scoring, automation and sequences, a client portal, multisite management, and an external API. It bundles no premium SDK.
 
 = 💬 Get Support =
 
@@ -161,24 +161,24 @@ Post in the [WordPress.org support forum](https://wordpress.org/support/plugin/r
 
 == Screenshots ==
 
-1. Dashboard — leads this week, open pipeline, revenue, hot leads, quick actions, and recent activity.
-2. Contacts — sortable list with heat indicators, tags, saved views, bulk actions, and CSV import/export.
-3. Contact record — summary tiles, custom fields, subscription status, activity timeline, email compose, and purchase history.
-4. Visual pipeline — drag-and-drop Kanban board with stage totals and analytics.
-5. Reports — contacts over time, lead sources, and pipeline conversion, all exportable to CSV.
-6. Tasks — due-today, overdue, and upcoming views with priorities.
-7. Settings — Modules toggle.
-8. Settings — Email templates.
+1. Dashboard: leads this week, open pipeline, revenue, hot leads, quick actions, and recent activity.
+2. Contacts: sortable list with heat indicators, tags, saved views, bulk actions, and CSV import/export.
+3. Contact record: summary tiles, custom fields, subscription status, activity timeline, email compose, and purchase history.
+4. Visual pipeline: drag-and-drop Kanban board with stage totals and analytics.
+5. Reports: contacts over time, lead sources, and pipeline conversion, all exportable to CSV.
+6. Tasks: due-today, overdue, and upcoming views with priorities.
+7. Settings: Modules toggle.
+8. Settings: Email templates.
 
 == Development ==
 
-RayEtun CRM's admin interface is built the modern WordPress way, with the official [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts) toolchain (webpack). React and other WordPress packages load from core script handles (`wp-element`, `wp-api-fetch`, and friends) — no third-party libraries are bundled. The complete, unminified source ships in the plugin's `src/` directory; the compiled assets are in `build/`. Nothing is obfuscated.
+RayEtun CRM's admin interface is built the modern WordPress way, with the official [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts) toolchain (webpack). React and other WordPress packages load from core script handles (`wp-element`, `wp-api-fetch`, and friends); no third-party libraries are bundled. The complete, unminified source ships in the plugin's `src/` directory; the compiled assets are in `build/`. Nothing is obfuscated.
 
 To build from source:
 
 `npm install && npm run build`
 
-That regenerates everything in `build/`. No build step is needed to *use* the plugin — the compiled output is included.
+That regenerates everything in `build/`. No build step is needed to *use* the plugin; the compiled output is included.
 
 == External Services ==
 
