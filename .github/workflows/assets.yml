@@ -8,6 +8,8 @@ on:
     paths:
       - '.wordpress-org/**'
       - 'readme.txt'
+  # Allow a manual re-sync of readme/assets from the Actions tab or CLI.
+  workflow_dispatch:
 
 jobs:
   assets:
@@ -23,3 +25,8 @@ jobs:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SLUG: rayetun-crm
+          # Update only readme.txt and the /assets folder; never rsync the repo
+          # over trunk. The compiled build/ directory is gitignored (built fresh
+          # in CI on release), so a full trunk sync would try to delete it and
+          # the action would abort. This flag keeps trunk's code untouched.
+          IGNORE_OTHER_FILES: true
